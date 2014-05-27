@@ -54,9 +54,8 @@ def get_my_contacts():
 def get_their_contacts():
 	nsid_list = ["51035555243@N01"]
 	storage = "TheirContacts"
-	their_nsid =  nsid_list[0]
-	for x in nsid_list:
-		get_contacts(x, storage)
+	for their_nsid in nsid_list:
+		get_contacts(their_nsid, storage)
 
 get_my_contacts()
 get_their_contacts()
