@@ -6,8 +6,8 @@ conn = sqlite3.connect('flickrbase.db')
 c = conn.cursor()
 
 flickr_json_api = 'http://api.flickr.com/services/rest/?format=json&%s'
-api_key = "8a9fab943f79d23a3135b31d73bfdd6c"
-api_secret = "d48d7bd4543562ff"
+api_key = ""
+api_secret = ""
 
 
 def get_contacts(nsid, storage):
